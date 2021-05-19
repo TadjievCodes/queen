@@ -13,13 +13,13 @@ function App() {
 
       <div id='hero' className='d-flex flex-md-row flex-sm-column align-items-center'>
 
-        <div className= 'col-md-7 col-sm-12 col-xs-12'><img className='img-fluid' src={promo} alt='promo'/></div>
+        <div id="formSection" className= 'col-md-7 col-sm-12 col-xs-12'><img className='img-fluid' src={promo} alt='promo'/></div>
         <FormW />
 
       </div>
         <div className='d-flex justify-content-center align-items-center m-5'>
           <div id='line'></div>
-          <h2 className=' text-dark col-4 text-center'>Why Castor Oil?</h2>
+          <h3 className=' text-dark col-4 text-center'>Why Castor Oil?</h3>
           <div id='line'></div>
         </div>
 
@@ -45,16 +45,16 @@ function App() {
       <h2 className='text-center mt-5'>ENTER YOUR EMAIL NOW!</h2>
       <p className='text-center'>To Unlock This Free, Less-mess, Simple Self-care Recipe For Natural Hair Growth.</p>
       <div className='text-center m-3'>
-       <Button variant='success'  className='p-4'> Get it NOW!</Button>
+       <Button variant='success'  className='px-5 py-3'  href="#formSection" >Get it NOW!</Button>
       </div>
       <div className='text-center m-3'>
         <img className='img-fluid' width='150px' src='https://cdn05.zipify.com/Q1AEnhd3irxyGsRdtLKhSZVWiKY=/fit-in/2048x0/4afac8dd831844d992f2a3431ac40819/6ab2bd-full.png'  />
       </div>
       <p className='text-center'>For all general inquiries, please contact us at <a href='mailto:care@drmarisol.com'>care@drmarisol.com</a></p>
       <div className='text-center m-3 mt-5'>
-        <FaFacebook />
-        <FaYoutube />
-        <FaInstagram />
+        <a href="https://www.facebook.com/queenofthethrones/"  target="_blank"><FaFacebook id="facebook" /></a>
+         <a href="  https://www.youtube.com/user/marisolnd"  target="_blank"><FaYoutube  id="youtube"/></a>
+         <a  href="https://www.instagram.com/queenofthethrones/"  target="_blank"><FaInstagram id="instagram" /></a>
       </div>
 
       <p className='text-center mt-5'>©2020 Copyright. All rights reserved</p>

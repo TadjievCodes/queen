@@ -6,6 +6,12 @@ h1, h2 {
     font-size: 48px;
     font-weight: 900;
     font-family: 'Lato', sans-serif;
+    font-weight: bold  !important;
+}
+
+p {
+   font-family: 'Lato', sans-serif;
+   font-size: 18px;
 }
 
 #bonus {
@@ -23,7 +29,6 @@ h1, h2 {
 
 
 
-
 svg {
   font-size: 70px !important;
   color: #c4c4c4!important;
@@ -35,4 +40,17 @@ svg {
   border: 1px solid;
   width: 100%;
   height: 0%
+}
+
+#facebook:hover {
+
+color: #537abb !important;
+}
+#youtube:hover {
+
+color: #e96349 !important;
+}
+#instagram:hover {
+
+color: #bf3a89 !important;
 }
