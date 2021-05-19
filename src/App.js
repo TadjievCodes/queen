@@ -48,16 +48,16 @@ function App() {
        <Button variant='success'  className='px-5 py-3'  href="#formSection" >Get it NOW!</Button>
       </div>
       <div className='text-center m-3'>
-        <img className='img-fluid' width='150px' src='https://cdn05.zipify.com/Q1AEnhd3irxyGsRdtLKhSZVWiKY=/fit-in/2048x0/4afac8dd831844d992f2a3431ac40819/6ab2bd-full.png'  />
+        <img className='img-fluid' width='100px' height="78px" src='https://cdn05.zipify.com/Q1AEnhd3irxyGsRdtLKhSZVWiKY=/fit-in/2048x0/4afac8dd831844d992f2a3431ac40819/6ab2bd-full.png'  />
       </div>
       <p className='text-center inquiry'>For all general inquiries, please contact us at <a href='mailto:care@drmarisol.com'>care@drmarisol.com</a></p>
-      <div className='text-center m-3 mt-5'>
+      <div className='text-center m-2 mt-4'>
         <a href="https://www.facebook.com/queenofthethrones/"  target="_blank"><FaFacebook id="facebook" /></a>
          <a href="  https://www.youtube.com/user/marisolnd"  target="_blank"><FaYoutube  id="youtube"/></a>
          <a  href="https://www.instagram.com/queenofthethrones/"  target="_blank"><FaInstagram id="instagram" /></a>
       </div>
 
-      <p className='text-center mt-5'>©2020 Copyright. All rights reserved</p>
+      <p className='text-center mt-3'>©2020 Copyright. All rights reserved</p>
   </Container>
   );
 }
