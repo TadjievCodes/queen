@@ -35,7 +35,7 @@ function FormW() {
     <div className=' col-md-5 col-sm-12 col-xs-12 m-5 p-2'>
     
       <Form>
-        <h3>Just Tell Us Where To Send Your FREE Castor Oil Hair Growth Recipe! (+ Bonus Essential Oil Recipe)</h3>
+        <p className="inform">Just Tell Us Where To Send Your FREE Castor Oil Hair Growth Recipe! (+ Bonus Essential Oil Recipe)</p>
 
         <Form.Group controlId="formBasicName">
           <Form.Control

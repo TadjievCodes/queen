@@ -9,11 +9,55 @@ h1, h2 {
     font-weight: bold  !important;
 }
 
-p {
+ li {
    font-family: 'Lato', sans-serif;
    font-size: 18px;
 }
 
+
+.castor {
+  font-family: 'Lato', sans-serif;
+   font-size: 48px;
+   font-weight: 900 !important;
+   line-height: 1; 
+}
+
+.oil-text {
+   font-family: 'Lato', sans-serif;
+   font-size: 18px;
+}
+
+.inform {
+   font-family: 'Lato', sans-serif;
+   font-size: 22px;
+   font-weight: 400;
+   font-style: normal;
+}
+
+.text-dark {
+   line-height: 1.2;
+   font-size: 32px;
+   font-weight: 300;
+   font-style: normal;
+   text-transform: none;
+}
+
+.unlock { 
+     line-height: 1.15;
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Lato";
+    color: #262626;
+    margin: 8px 0;
+}
+
+.inquiry {
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.43;
+}
 #bonus {
     line-height: 1.5;
     font-size: 24px;
@@ -30,10 +74,10 @@ p {
 
 
 svg {
-  font-size: 70px !important;
+  font-size: 60px !important;
   color: #c4c4c4!important;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 9px;
+  margin-right: 9px;
 }
 
 #line {
