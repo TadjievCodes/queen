@@ -69,6 +69,34 @@ h1, h2 {
   font-size: 17px;
 }
 
+.btn-success:hover {
+  background-color: rgb(106, 178, 189) !important;
+  color: #FFF;
+  border: 2px solid transparent;
+  font-weight: bold  !important;
+  font-size: 17px;
+  text-align: center;
+  overflow: visible;
+  text-transform: none;
+  vertical-align: middle;
+  touch-action: manipulation;
+  background-image: none;
+  border: 0;
+  margin: 0;
+  white-space: normal;
+  word-break: break-word;
+  word-wrap: break-word;
+  line-height: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: auto;
+  height: auto;
+  min-height: auto;
+  transition: all .2s ease;
+  position: relative;
+}
 
 
 svg {
