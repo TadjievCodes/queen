@@ -1,3 +1,12 @@
+#React App that was built to immitate the landing page of Queen of the Trones Company (URL: https://shopdrmarisol.ca/pages/castor-oil-hair-recipe#7059733) 
+![](images/queenMain.png)     
+
+![](images/queenCastor.png)
+
+![](images/queenFooter.png)     
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
