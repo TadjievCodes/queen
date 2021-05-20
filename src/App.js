@@ -24,10 +24,10 @@ function App() {
         <FormW />
 
       </div>
-        <div className='d-flex justify-content-center align-items-center m-5'>
-          <div id='line'></div>
-          <p className=' text-dark col-4 text-center'>Why Castor Oil?</p>
-          <div id='line'></div>
+        <div className='d-flex justify-content-center align-items-center my-5'>
+          <div id='line' className='flex-shrink-1'></div>
+          <p className=' text-dark w-100 text-center'>Why Castor Oil?</p>
+          <div id='line' className='flex-shrink-1'></div>
         </div>
 
       <div id='oil' className='d-flex flex-md-row flex-sm-column align-items-center flex-column'>
