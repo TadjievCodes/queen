@@ -3,15 +3,22 @@ import FormW from './components/Form';
 import { Container, Button } from 'react-bootstrap'
 import promo from './assets/1.jpg'
 import { FaFacebook, FaYoutube, FaInstagram } from 'react-icons/fa'
+import ScrollToTop from "react-scroll-to-top";
+
 
 function App() {
+
+  const btnScroll = {
+    'background-color': "rgba(0,0,0,.6)",
+    'font-size':'80%'
+  }
   return (
     <Container>
-
+      <ScrollToTop style={btnScroll}  color='white' id='scroll' smooth viewBox='0 0 24 24' svgPath='M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z' />
       <h1 id='h1' className='text-center m-3 castor'>THE HOT CASTOR OIL HAIR MASK RECIPE FOR HAIR GROWTH</h1>
       <p id='bonus' className='text-center m-3'>+ BONUS Essential Oil Recipe!</p>
 
-      <div id='hero' className='d-flex flex-md-row flex-sm-column align-items-center'>
+      <div id='hero' className='d-flex flex-md-row flex-sm-column flex-xs-column flex-column align-items-center'>
 
         <div id="formSection" className= 'col-md-7 col-sm-12 col-xs-12'><img className='img-fluid' src={promo} alt='promo'/></div>
         <FormW />
@@ -23,7 +30,7 @@ function App() {
           <div id='line'></div>
         </div>
 
-      <div id='oil' className='d-flex flex-md-row flex-sm-column align-items-center'>
+      <div id='oil' className='d-flex flex-md-row flex-sm-column align-items-center flex-column'>
 
         <div className='oil-text col-md-6 col-sm-12 col-xs-12'>
           <p>Touted as the best oil to <b>stimulate hair growth</b> since Ancient Egyptian times, castor oil was the legendary beauty secret of <b>Queen Cleopatra</b> herself. </p>
