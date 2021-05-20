@@ -9,8 +9,8 @@ import ScrollToTop from "react-scroll-to-top";
 function App() {
 
   const btnScroll = {
-    'background-color': "rgba(0,0,0,.6)",
-    'font-size':'80%'
+    'backgroundColor': "rgba(0,0,0,.6)",
+    'fontSize':'80%'
   }
   return (
     <Container>
